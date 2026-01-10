@@ -162,11 +162,23 @@ LEVELS = [
         )
     },
     {
-        "code": "KURETI",
-        "reply": "✅ Pareizi! Video #13: https://www.youtube.com/watch?v=JGwWNGJdvx8\n\nIevadi nākamo kodu 🙂"
-    },
+    "code": "KURETI",
+    "reply": (
+        "✅ Pareizi — KURETI!\n\n"
+        "Kureti darbinieki iedeva DPD kurjeram projektoru 📽️\n"
+        "un palūdza to nogādāt uz veco kinoteātri **Aurora**.\n\n"
+        "🤔 Viņi tikai vairs neatcerējās, kā tagad saucas tā vieta\n"
+        "(turpat blakus ir elektro uzlādes stacija ⚡).\n\n"
+        "👀 Skatoties apkārt (un pat **zem kājām**!),\n"
+        "🍍uz bruģa ir uzraksts ar vienu vārdu…\n\n"
+        "🎥 Noskaties video un atrodi jauno nosaukumu 🍍👇\n"
+        "🍍https://youtube.com/shorts/OODnC_vMKto?si=smvrCcQOeiaf6VIK \n\n"
+        "🔑 Kad zini atbildi — ievadi kodu.\n"
+        "Padoms: kods ir 1 vārds (bez garumzīmēm)."
+    )
+},
     {
-        "code": "KODS14",
+        "code": "Ananass",
         "reply": "✅ Pareizi! Video #14: https://www.youtube.com/watch?v=KxJ8n4B7G3g\n\nIevadi nākamo kodu 🙂"
     },
     {
