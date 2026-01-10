@@ -4,7 +4,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, ContextTyp
 
 # 15 līmeņi (secībā)
 LEVELS = [
-    {"code": "Sofija", "reply": "✅ Pareizi! Skaties video #1: https://www.youtube.com/watch?v=dQw4w9WgXcQ\n\nIevadi nākamo kodu 🙂"},
+    {"code": "Sofija", "reply": "✅ Saņēmējs identificēts! Lai turpinātu paciņas meklēšanu, noskaties šo video #1: https://www.youtube.com/shorts/rihy0PjmtfM\n\nIevadi nākamo kodu 🙂"},
     {"code": "KODS2",  "reply": "✅ Super! Video #2: https://www.youtube.com/watch?v=9bZkp7q19f0\n\nIevadi nākamo kodu 🙂"},
     {"code": "KODS3",  "reply": "✅ Lieliski! Video #3: https://www.youtube.com/watch?v=3JZ_D3ELwOQ\n\nIevadi nākamo kodu 🙂"},
     {"code": "KODS4",  "reply": "✅ Pareizi! Video #4: https://www.youtube.com/watch?v=kJQP7kiw5Fk\n\nIevadi nākamo kodu 🙂"},
