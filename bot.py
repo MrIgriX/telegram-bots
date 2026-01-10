@@ -2,8 +2,9 @@ import os
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, ContextTypes, filters
 
+# 15 līmeņi (secībā)
 LEVELS = [
-    {"code": "KODS1",  "reply": "✅ Pareizi! Skaties video #1: https://www.youtube.com/watch?v=dQw4w9WgXcQ\n\nIevadi nākamo kodu 🙂"},
+    {"code": "Sofija", "reply": "✅ Pareizi! Skaties video #1: https://www.youtube.com/watch?v=dQw4w9WgXcQ\n\nIevadi nākamo kodu 🙂"},
     {"code": "KODS2",  "reply": "✅ Super! Video #2: https://www.youtube.com/watch?v=9bZkp7q19f0\n\nIevadi nākamo kodu 🙂"},
     {"code": "KODS3",  "reply": "✅ Lieliski! Video #3: https://www.youtube.com/watch?v=3JZ_D3ELwOQ\n\nIevadi nākamo kodu 🙂"},
     {"code": "KODS4",  "reply": "✅ Pareizi! Video #4: https://www.youtube.com/watch?v=kJQP7kiw5Fk\n\nIevadi nākamo kodu 🙂"},
@@ -25,18 +26,29 @@ def normalize(text: str) -> str:
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     context.user_data["level"] = 0
-    await update.message.reply_text("Sveiks! 👋 Ievadi pirmo kodu 🙂")
+    await update.message.reply_text(
+        "DPD atbalsta bots 📦\n\n"
+        "Sveicināti!\n"
+        "Sistēmas traucējumu dēļ sūtījums nav automātiski piesaistīts saņēmējam.\n\n"
+        "Lūdzu, noskatieties šo video ar papildu informāciju:\n"
+        "https://youtube.com/shorts/_lCWHaQCIfI\n\n"
+        "Pēc video noskatīšanās ievadiet sūtījuma saņēmēja vārdu, "
+        "lai aktivizētu paciņas meklēšanu."
+    )
 
 async def reset(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     context.user_data["level"] = 0
-    await update.message.reply_text("Sākam no jauna. Ievadi pirmo kodu 🙂")
+    await update.message.reply_text("Sākam no jauna. Ievadi sūtījuma saņēmēja vārdu 🙂")
 
 async def handle_text(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     user_text = normalize(update.message.text)
     level = context.user_data.get("level", 0)
 
     if level >= len(LEVELS):
-        await update.message.reply_text("Spēle jau ir pabeigta 🎉\nJa gribi sākt no jauna, raksti /reset")
+        await update.message.reply_text(
+            "Spēle jau ir pabeigta 🎉\n"
+            "Ja gribi sākt no jauna, raksti /reset"
+        )
         return
 
     expected_code = normalize(LEVELS[level]["code"])
