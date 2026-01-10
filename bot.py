@@ -65,7 +65,7 @@ LEVELS = [
         "🍕 Pareizi — ZEBRA!\n\n"
         "Čikitas pica tiešām ir visgaršīgākā.\n\n"
         "🎥 Noskaties video 👇\n"
-        "https://youtube.com/shorts/TEV_VIDEO_LINKS\n\n"
+        "https://www.youtube.com/shorts/zsI9D3bbVdU\n\n"
         "Tālāk bija jāved daudz un dažādi saldumi\n"
         "uz jauno veikalu Balvos.\n\n"
         "🤔 Neatceros nosaukumu,\n"
@@ -74,14 +74,96 @@ LEVELS = [
         "Ievadi nākamo kodu 🙂"
     )
 },
-    {"code": "Bigijs",  "reply": "✅ Pareizi! Video #6: https://www.youtube.com/watch?v=fJ9rUzIMcZQ\n\nIevadi nākamo kodu 🙂"},
-    {"code": "KODS7",  "reply": "✅ Pareizi! Video #7: https://www.youtube.com/watch?v=CevxZvSJLk8\n\nIevadi nākamo kodu 🙂"},
-    {"code": "KODS8",  "reply": "✅ Pareizi! Video #8: https://www.youtube.com/watch?v=60ItHLz5WEA\n\nIevadi nākamo kodu 🙂"},
-    {"code": "KODS9",  "reply": "✅ Pareizi! Video #9: https://www.youtube.com/watch?v=2Vv-BfVoq4g\n\nIevadi nākamo kodu 🙂"},
-    {"code": "KODS10", "reply": "✅ Pareizi! Video #10: https://www.youtube.com/watch?v=YQHsXMglC9A\n\nIevadi nākamo kodu 🙂"},
-    {"code": "KODS11", "reply": "✅ Pareizi! Video #11: https://www.youtube.com/watch?v=OPf0YbXqDm0\n\nIevadi nākamo kodu 🙂"},
-    {"code": "KODS12", "reply": "✅ Pareizi! Video #12: https://www.youtube.com/watch?v=hT_nvWreIhg\n\nIevadi nākamo kodu 🙂"},
-    {"code": "KODS13", "reply": "✅ Pareizi! Video #13: https://www.youtube.com/watch?v=JGwWNGJdvx8\n\nIevadi nākamo kodu 🙂"},
+    {
+    "code": "BIGIJS",
+    "reply": (
+        "🍬 Pareizi — BIGIJS!\n\n"
+        "🎥 Noskaties video 👇\n"
+        "https://youtube.com/shorts/41QOZD5Ys3Q?si=wx2jY3J3v6WYLaGy\n\n"
+        "Tālāk DPD kurjers devās uz Redakciju\n"
+        "Teātra ielā 8.\n\n"
+        "🤔 Neatceros, kā tā saucas tagad,\n"
+        "bet agrāk to sauca par \"Balvu Taisnība\".\n\n"
+        "📰 Kāds ir pareizais nosaukums?\n"
+        "Ievadi nākamo kodu 🙂"
+    )
+},
+    {
+    "code": "Vaduguns",
+    "reply": (
+        "📰 Pareizi!\n\n"
+        "Redakcija palūdza DPD kurjeram\n"
+        "aizvest laikrakstu *Vaduguns*\n"
+        "uz pasta nodaļu Brīvības ielā 57.\n\n"
+        "🤔 Bet kā saucās tā ēka?\n\n"
+        "🎥 Noskaties video un atrodi atbildi 👇\n"
+        "https://youtube.com/shorts/pbbLwqjo67Y?si=CLJecX2Utd7hHXXQ\n\n"
+        "🏬 Ieraksti ēkas nosaukumu (bez garumzīmēm) 🙂"
+    )
+},
+    {
+    "codes": ["PLANETA", "PLANĒTA"],
+    "reply": (
+        "📬 Pareizi — PLANĒTA!\n\n"
+        "🎥 Noskaties video 👇\n"
+        "https://youtube.com/shorts/IUFZCLGnB8k?si=JCvUdRaYUSAKPK8t\n\n"
+        "No pasta nodaļas DPD kurjers saņēma vēstuli,\n"
+        "kas bija jānogādā Balvu maizniekam.\n\n"
+        "🤔 Adresi neatceros,\n"
+        "bet ielas nosaukums bija tāds pats\n"
+        "kā aizslēgtajam veikalam.\n\n"
+        "📍 Kā sauc šo ielu?\n"
+        "Ievadi nākamo kodu 🙂"
+    )
+
+    {
+    "codes": ["LIEPA", "LIEPU", "LIEPAS"],
+    "reply": (
+        "✅ Pareizi!\n\n"
+        "🚒 Nākamais uzdevums:\n"
+        "DPD kurjeram jāaizved ugunsdzēšamais aparāts uz Ezera ielu.\n\n"
+        "Pagalmā stāv veca sarkanbalta padomju laika kravas automašīna ZIL-157.\n"
+        "Parasti uz šāda auto ir liels numurs, ko redz gandrīz visur.\n\n"
+        "🎥 Noskaties video 👇\n"
+        "https://youtube.com/shorts/edYvbWNLils?si=k4ShfkhvTfTfv2Of\n\n"
+        "🔎 Atrodi šo telefona numuru uz auto vai citur un ievadi to kā kodu.\n\n"
+        "Veiksmi! 🙂"
+    )
+},
+    {
+    "code": "112",
+    "reply": (
+        "🚒 Pareizi — 112!\n\n"
+        "Ugunsdzēsēju priekšnieks palūdza DPD kurjeram\n"
+        "aizvest mapīti uz **Dārza ielu 2**.\n\n"
+        "🧠 Atceros tikai vienu detaļu:\n"
+        "tur bija kautkāda **Sāls istaba** \n\n"
+        "🎥 Noskaties video 👇\n"
+        "https://youtube.com/shorts/YHfm3E7dVN4?si=9FtnDAfPJ-z3uNSm\n\n"
+        "🔎 Kā sauc šo vietu? 🏊‍♂️\n"
+        "Ievadi nākamo kodu 🙂"
+    )
+},
+    {
+    "code": "BASEINS",
+    "reply": (
+        "🏊‍♂️ Pareizi — BASEINS!\n\n"
+        "DPD kurjers ieradās baseinā,\n"
+        "kur meitenes atpūtās SPA hidromasāžas baseinā.\n\n"
+        "Kurjers jautāja:\n"
+        "— Kur ir treneris?\n\n"
+        "Atbilde bija vienkārša:\n"
+        "— Viņš ir aizbraucis pusdienās.\n\n"
+        "🧠 Vēl viena detaļa palika prātā:\n"
+        "netālu stāv **T veida ūdenstornis**,\n"
+        "un pašā augšā — **gailis** 🐓\n\n"
+         "Tur esot arī labs pusdienu piedāvājums no 12-15 darba dienās!\n\n"
+        "🎥 Noskaties video un atrodi nākamo kodu.\n\n"
+        "https://www.youtube.com/shorts/AeppiTnW1rc"
+        "Ievadi atbildi 🙂"
+    )
+},
+    {"code": "Kureti", "reply": "✅ Pareizi! Video #13: https://www.youtube.com/watch?v=JGwWNGJdvx8\n\nIevadi nākamo kodu 🙂"},
     {"code": "KODS14", "reply": "✅ Pareizi! Video #14: https://www.youtube.com/watch?v=KxJ8n4B7G3g\n\nIevadi nākamo kodu 🙂"},
     {"code": "KODS15", "reply": "🏁 Apsveicu! Finišs! 🎉 Video #15: https://www.youtube.com/watch?v=uelHwf8o7_U\n\nBalva tevi gaida 🙂"},
 ]
