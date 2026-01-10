@@ -17,11 +17,64 @@ LEVELS = [
             "un ievadi tās nosaukumu atbalsta botā kā KODU."
         )
     },
-    {"code": "CSDD",  "reply": "✅ Super! Video #2: https://www.youtube.com/watch?v=9bZkp7q19f0\n\nIevadi nākamo kodu 🙂"},
-    {"code": "KODS3",  "reply": "✅ Lieliski! Video #3: https://www.youtube.com/watch?v=3JZ_D3ELwOQ\n\nIevadi nākamo kodu 🙂"},
-    {"code": "KODS4",  "reply": "✅ Pareizi! Video #4: https://www.youtube.com/watch?v=kJQP7kiw5Fk\n\nIevadi nākamo kodu 🙂"},
-    {"code": "KODS5",  "reply": "✅ Pareizi! Video #5: https://www.youtube.com/watch?v=L_jWHffIx5E\n\nIevadi nākamo kodu 🙂"},
-    {"code": "KODS6",  "reply": "✅ Pareizi! Video #6: https://www.youtube.com/watch?v=fJ9rUzIMcZQ\n\nIevadi nākamo kodu 🙂"},
+    {
+    "code": "CSDD",
+    "reply": (
+        "🚗 Labi, braucam tālāk…\n\n"
+        "Jā, pareizi — tas bija CSDD.\n"
+        "Pēc tam DPD kurjers devās ceļā uz Balvu pilsētas estrādes parku.\n\n"
+        "🧠 Atceros tikai vienu detaļu:\n"
+        "pie parka bija ēka ar ļoti košu, 🎨 RAIBU 🎨 uzrakstu.\n"
+        "🟥 🟨 🟦 🟥 🟨\n\n"
+        "🎥 Noskaties video un atrodi kodu:\n"
+        "https://youtube.com/shorts/e_KY9mUWtMw?si=jp_Jmd70M3HvM1tj\n\n"
+        "Kad zini atbildi — ieraksti to šeit.\n\n"
+        "Veiksmi! 🙂"
+    )
+},
+
+   {
+    "code": "JOKER",
+    "reply": (
+        "☕ Pareizi — JOKER!\n\n"
+        "Tālāk atceros, ka tā bija degvielas uzpildes stacija, kur ar LIDL aplikāciju\n"
+        "var dabūt atlaidi degvielai,\n"
+        "un katra 8. kafija ir BEZMAKSAS.\n\n"
+        "🚗 Braucam tālāk uz nākamo pieturu…\n"
+        "🎥 https://youtube.com/shorts/Kzg0QCfPpME?si=V4ZnIvrwYmVqxyFI\n\n"
+        "Ievadi nākamo kodu 🙂"
+    )
+},
+
+    {
+    "code": "VIADA",
+    "reply": (
+        "☕ Pareizi — VIADA!\n\n"
+        "Noskaties video 👇\n"
+        "https://youtube.com/shorts/yjPMw0WxBrs?si=X6fV-eWSC4PKDjQV\n\n"
+        "Tālāk aizvedu nākamo paciņu uz Brīvības ielu 60.\n"
+        "Atceros, ka tur bija smukas meitenes\n"
+        "un ļoti garšīgi smaržoja pēc ēdiena…\n\n"
+        "🎱Kur es biju?\n"
+        "Ievadi nākamo kodu 🙂"
+    )
+},
+    {
+    "code": "ZEBRA",
+    "reply": (
+        "🍕 Pareizi — ZEBRA!\n\n"
+        "Čikitas pica tiešām ir visgaršīgākā.\n\n"
+        "🎥 Noskaties video 👇\n"
+        "https://youtube.com/shorts/TEV_VIDEO_LINKS\n\n"
+        "Tālāk bija jāved daudz un dažādi saldumi\n"
+        "uz jauno veikalu Balvos.\n\n"
+        "🤔 Neatceros nosaukumu,\n"
+        "bet logo bija ar Bigfoot.\n\n"
+        "🏪 Kā sauc šo veikalu?\n"
+        "Ievadi nākamo kodu 🙂"
+    )
+},
+    {"code": "Bigijs",  "reply": "✅ Pareizi! Video #6: https://www.youtube.com/watch?v=fJ9rUzIMcZQ\n\nIevadi nākamo kodu 🙂"},
     {"code": "KODS7",  "reply": "✅ Pareizi! Video #7: https://www.youtube.com/watch?v=CevxZvSJLk8\n\nIevadi nākamo kodu 🙂"},
     {"code": "KODS8",  "reply": "✅ Pareizi! Video #8: https://www.youtube.com/watch?v=60ItHLz5WEA\n\nIevadi nākamo kodu 🙂"},
     {"code": "KODS9",  "reply": "✅ Pareizi! Video #9: https://www.youtube.com/watch?v=2Vv-BfVoq4g\n\nIevadi nākamo kodu 🙂"},
