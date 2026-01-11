@@ -178,13 +178,37 @@ LEVELS = [
     )
 },
     {
-        "code": "Ananass",
-        "reply": "✅ Pareizi! Video #14: https://www.youtube.com/watch?v=KxJ8n4B7G3g\n\nIevadi nākamo kodu 🙂"
-    },
-    {
-        "code": "KODS15",
-        "reply": "🏁 Apsveicu! Finišs! 🎉 Video #15: https://www.youtube.com/watch?v=uelHwf8o7_U\n\nBalva tevi gaida 🙂"
-    },
+    "code": "ANANASS",
+    "reply": (
+        "🍍 Pareizi — ANANASS!\n\n"
+        "Tu atbloķēji nākamo līmeni ✅\n\n"
+        "📍 Šī vieta ir pie vecā kinoteātra **Aurora**,\n"
+        "kas tagad ir pazīstams kā **Ananass**.\n\n"
+        "🎥 Noskaties video 👇\n"
+        "https://youtube.com/shorts/plTIe2APqa0?si=uIirXZuGeZohHpMb\n\n"
+        "👩‍🦰 Pie šīs vietas sieviete iedeva DPD kurjeram\n"
+        "novērošanas kameras ierakstu.\n\n"
+        "🌙 Pa nakti pie Amatniecibas viddusskolas kāds ir sazīmējis sienas ar grafiti n"
+        "un turi ir paslēpts nākamais pavediens.\n\n"
+        "🔎 Atrodi grafitī un atradīsi nākamo kodu un ievadi to šeit 🙂"
+    )
+},
+   {
+    "code": "MIESNIEKS",
+    "reply": (
+        "🚓 Pareizi — MIESNIEKS!\n\n"
+        "Policists pateicās DPD kurjeram par atvesto video kameru.\n"
+        "Tagad būs vieglāk atrast grafiti zīmētāju.\n\n"
+        "📹 Noskaties video 👇\n"
+        "https://youtube.com/shorts/lMzr-46b0Rs?si=7lMWOpHjFWPFcv7s\n\n"
+        "Pirms šķirties, policists saka:\n"
+        "— Brauc uz **Sporta ielu 1**.\n"
+        "Tur tev palīdzēs atrast bojāto kodu **Sofijas sūtījumam**.\n\n"
+        "🏢 Nosaki, kāda iestāde atrodas šajā adresē,\n"
+        "un ievadi tās nosaukumu atbalsta botā kā KODU 🙂"
+    )
+}
+
 ]
 
 def normalize(text: str) -> str:
