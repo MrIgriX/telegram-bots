@@ -91,7 +91,7 @@ LEVELS = [
         "reply": (
             "📰 Pareizi!\n\n"
             "Redakcija palūdza DPD kurjeram\n"
-            "aizvest laikrakstu *Vaduguns*\n"
+            "aizvest laikrakstu Vaduguns\n"
             "uz pasta nodaļu Brīvības ielā 57.\n\n"
             "🤔 Bet kā saucās tā ēka?\n\n"
             "🎥 Noskaties video un atrodi atbildi 👇\n"
@@ -138,7 +138,7 @@ LEVELS = [
             "tur bija kautkāda sāls istaba.\n\n"
             "🎥 Noskaties video 👇\n"
             "https://youtube.com/shorts/YHfm3E7dVN4?si=9FtnDAfPJ-z3uNSm\n\n"
-            "🔎 Kā sauc šo vietu? 🏊‍♂️\n"
+            "🔎 Kā sauc šo vietu?\n"
             "Ievadi nākamo kodu 🙂"
         )
     },
@@ -155,60 +155,71 @@ LEVELS = [
             "🧠 Vēl viena detaļa palika prātā:\n"
             "netālu stāv T veida ūdenstornis,\n"
             "un pašā augšā — gailis 🐓\n\n"
-            "Tur esot arī labs pusdienu piedāvājums no 12-15 darba dienās!\n\n"
+            "Tur esot arī labs pusdienu piedāvājums no 12–15 darba dienās!\n\n"
             "🎥 Noskaties video un atrodi nākamo kodu 👇\n"
             "https://www.youtube.com/shorts/AeppiTnW1rc\n\n"
             "Ievadi atbildi 🙂"
         )
     },
     {
-    "code": "KURETI",
-    "reply": (
-        "✅ Pareizi — KURETI!\n\n"
-        "Kureti darbinieki iedeva DPD kurjeram projektoru 📽️\n"
-        "un palūdza to nogādāt uz veco kinoteātri **Aurora**.\n\n"
-        "🤔 Viņi tikai vairs neatcerējās, kā tagad saucas tā vieta\n"
-        "(turpat blakus ir elektro uzlādes stacija ⚡).\n\n"
-        "👀 Skatoties apkārt (un pat **zem kājām**!),\n"
-        "🍍uz bruģa ir uzraksts ar vienu vārdu…\n\n"
-        "🎥 Noskaties video un atrodi jauno nosaukumu 🍍👇\n"
-        "🍍https://youtube.com/shorts/OODnC_vMKto?si=smvrCcQOeiaf6VIK \n\n"
-        "🔑 Kad zini atbildi — ievadi kodu.\n"
-        "Padoms: kods ir 1 vārds (bez garumzīmēm)."
-    )
-},
+        "code": "KURETI",
+        "reply": (
+            "✅ Pareizi — KURETI!\n\n"
+            "Kureti darbinieki iedeva DPD kurjeram projektoru 📽️\n"
+            "un palūdza to nogādāt uz veco kinoteātri Aurora.\n\n"
+            "🤔 Viņi vairs neatcerējās, kā tagad saucas tā vieta "
+            "(turpat blakus ir elektro uzlādes stacija ⚡).\n\n"
+            "👀 Skatoties apkārt (un pat zem kājām!), uz bruģa ir uzraksts ar vienu vārdu… 🍍\n\n"
+            "🎥 Noskaties video un atrodi jauno nosaukumu 👇\n"
+            "https://youtube.com/shorts/OODnC_vMKto?si=smvrCcQOeiaf6VIK\n\n"
+            "🔑 Kad zini atbildi — ievadi kodu.\n"
+            "Padoms: kods ir 1 vārds (bez garumzīmēm)."
+        )
+    },
     {
-    "code": "ANANASS",
-    "reply": (
-        "🍍 Pareizi — ANANASS!\n\n"
-        "Tu atbloķēji nākamo līmeni ✅\n\n"
-        "📍 Šī vieta ir pie vecā kinoteātra **Aurora**,\n"
-        "kas tagad ir pazīstams kā **Ananass**.\n\n"
-        "🎥 Noskaties video 👇\n"
-        "https://youtube.com/shorts/plTIe2APqa0?si=uIirXZuGeZohHpMb\n\n"
-        "👩‍🦰 Pie šīs vietas sieviete iedeva DPD kurjeram\n"
-        "novērošanas kameras ierakstu.\n\n"
-        "🌙 Pa nakti pie Amatniecibas viddusskolas kāds ir sazīmējis sienas ar grafiti n"
-        "un turi ir paslēpts nākamais pavediens.\n\n"
-        "🔎 Atrodi grafitī un atradīsi nākamo kodu un ievadi to šeit 🙂"
-    )
-},
-   {
-    "code": "MIESNIEKS",
-    "reply": (
-        "🚓 Pareizi — MIESNIEKS!\n\n"
-        "Policists pateicās DPD kurjeram par atvesto video kameru.\n"
-        "Tagad būs vieglāk atrast grafiti zīmētāju.\n\n"
-        "📹 Noskaties video 👇\n"
-        "https://youtube.com/shorts/lMzr-46b0Rs?si=7lMWOpHjFWPFcv7s\n\n"
-        "Pirms šķirties, policists saka:\n"
-        "— Brauc uz **Sporta ielu 1**.\n"
-        "Tur tev palīdzēs atrast bojāto kodu **Sofijas sūtījumam**.\n\n"
-        "🏢 Nosaki, kāda iestāde atrodas šajā adresē,\n"
-        "un ievadi tās nosaukumu atbalsta botā kā KODU 🙂"
-    )
-}
-
+        "code": "ANANASS",
+        "reply": (
+            "🍍 Pareizi — ANANASS!\n\n"
+            "📍 Šī vieta ir pie vecā kinoteātra Aurora, kas tagad ir pazīstams kā Ananass.\n\n"
+            "🎥 Noskaties video 👇\n"
+            "https://youtube.com/shorts/plTIe2APqa0?si=uIirXZuGeZohHpMb\n\n"
+            "👩‍🦰 Sieviete iedeva DPD kurjeram novērošanas kameras ierakstu.\n\n"
+            "🌙 Pa nakti pie Amatniecības vidusskolas kāds ir sazīmējis sienu ar grafiti.\n"
+            "Tur ir paslēpts nākamais pavediens.\n\n"
+            "🔎 Atrodi grafiti un ievadi nākamo kodu 🙂"
+        )
+    },
+    {
+        "code": "MIESNIEKS",
+        "reply": (
+            "🚓 Pareizi — MIESNIEKS!\n\n"
+            "Policists pateicās DPD kurjeram par atvesto video kameru.\n"
+            "Tagad būs vieglāk atrast grafiti zīmētāju.\n\n"
+            "📹 Noskaties video 👇\n"
+            "https://youtube.com/shorts/lMzr-46b0Rs?si=7lMWOpHjFWPFcv7s\n\n"
+            "Pirms šķirties, policists saka:\n"
+            "— Brauc uz Sporta ielu 1.\n"
+            "Tur tev palīdzēs atrast bojāto kodu tavam sūtījumam.\n\n"
+            "🏢 Nosaki, kāda iestāde atrodas šajā adresē,\n"
+            "un ievadi tās nosaukumu atbalsta botā kā KODU 🙂"
+        )
+    },
+    {
+        "code": "POLICIJA",
+        "reply": (
+            "🚓 Pareizi — POLICIJA!\n\n"
+            "Video ieraksts ir nodots policijai,\n"
+            "un grafiti lieta ir veiksmīgi noslēgta.\n\n"
+            "🎥 Noskaties noslēguma video 👇\n"
+            "https://youtube.com/shorts/_eEWhOCRRdc?si=gknY74ZHObkRfYAB\n\n"
+            "📦 Sofijas sūtījums ir atrasts!\n\n"
+            "🔐 DPD paku skapis:\n"
+            "📍 Partizānu iela 6, Balvi\n"
+            "🔢 PIN kods: 617188\n\n"
+            "🏁 Apsveicu! Spēle pabeigta 🎉\n"
+            "Paldies, ka palīdzēji DPD kurjeram!"
+        )
+    }
 ]
 
 def normalize(text: str) -> str:
